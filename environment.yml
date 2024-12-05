@@ -1,0 +1,31 @@
+name: extreme-weather-env
+channels: ## Add any other channels below if necessary
+  - conda-forge
+dependencies: ## Prioritize conda packages
+  - python=3.10
+  - jupyter
+  - conda
+  - mamba
+  - ipython
+  - ipykernel
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - pip
+  - pre-commit
+  - black
+  - nbstripout
+  - mypy
+  - flake8
+  - pycodestyle
+  - pydocstyle
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - netCDF4
+  - pip: ## Add in pip packages if necessary
+      - mkdocs
+      - mkdocs-material
+      - mkdocstrings
+      - mknotebooks
